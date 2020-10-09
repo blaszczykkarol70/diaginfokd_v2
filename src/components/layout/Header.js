@@ -10,24 +10,24 @@ const Header = () => (
         <div className="w-12 mr-3">
           <LogoIcon />
         </div>
-        Lander
+        DiagInfo KD
       </div>
       <div className="flex mt-4 sm:mt-0">
         <AnchorLink className="px-4" href="#features">
-          Features
+          Aktualności
         </AnchorLink>
         <AnchorLink className="px-4" href="#services">
-          Services
+          Partnerzy
         </AnchorLink>
         <AnchorLink className="px-4" href="#stats">
-          Stats
+          Statystyki
         </AnchorLink>
         <AnchorLink className="px-4" href="#testimonials">
-          Testimonials
+          Opinie
         </AnchorLink>
       </div>
       <div className="hidden md:block">
-        <Button className="text-sm">Start Free Trial</Button>
+        <Button className="text-sm">Skontaktuj się z nami</Button>
       </div>
     </div>
   </header>
