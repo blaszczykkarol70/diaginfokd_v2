@@ -22,9 +22,9 @@ const Header = () => (
         <AnchorLink className="px-4" href="#stats">
           Statystyki
         </AnchorLink>
-        <AnchorLink className="px-4" href="#testimonials">
+        {/* <AnchorLink className="px-4" href="#testimonials">
           Opinie
-        </AnchorLink>
+        </AnchorLink> */}
       </div>
       <div className="hidden md:block">
         <Button className="text-sm">Skontaktuj się z nami</Button>
