@@ -82,7 +82,7 @@ export default () => (
           </p>
         </div>
       }
-      secondarySlot={<TexaLogo />}
+      secondarySlot={<SvgCharts />}
     />
     <SplitSection
       reverseOrder
@@ -96,7 +96,7 @@ export default () => (
           </p>
         </div>
       }
-      secondarySlot={<NavigatorTXT />}
+      secondarySlot={<SvgCharts />}
     />
     {/* <SplitSection
       primarySlot={
