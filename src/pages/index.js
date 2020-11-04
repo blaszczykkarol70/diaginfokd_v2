@@ -9,6 +9,8 @@ import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
+import NavigatorTXT from '../img/prod-navigator-txts-2016.jpg';
+import TexaLogo from '../img/logo.png';
 
 
 export default () => (
@@ -80,7 +82,7 @@ export default () => (
           </p>
         </div>
       }
-      secondarySlot={<SvgCharts />}
+      secondarySlot={<TexaLogo />}
     />
     <SplitSection
       reverseOrder
@@ -94,7 +96,7 @@ export default () => (
           </p>
         </div>
       }
-      secondarySlot={<SvgCharts />}
+      secondarySlot={<NavigatorTXT />}
     />
     {/* <SplitSection
       primarySlot={
